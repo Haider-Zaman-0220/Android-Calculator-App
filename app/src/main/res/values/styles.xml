@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base style for all calculator buttons -->
+    <style name="CalculatorButton" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:insetTop">6dp</item>
+        <item name="android:insetBottom">6dp</item>
+        <item name="android:insetLeft">6dp</item>
+        <item name="android:insetRight">6dp</item>
+        <item name="cornerRadius">100dp</item> <!-- Make buttons circular -->
+    </style>
+
+    <!-- Style for number buttons -->
+    <style name="CalculatorButton.Number" parent="CalculatorButton">
+        <item name="android:backgroundTint">@color/calc_number_button_bg</item>
+        <item name="android:textColor">@color/calc_number_button_text</item>
+    </style>
+
+    <!-- Style for operator buttons -->
+    <style name="CalculatorButton.Operator" parent="CalculatorButton">
+        <item name="android:backgroundTint">@color/calc_operator_button_bg</item>
+        <item name="android:textColor">@color/calc_operator_button_text</item>
+    </style>
+
+    <!-- Style for the clear button -->
+    <style name="CalculatorButton.Clear" parent="CalculatorButton.Operator">
+        <item name="android:textColor">@color/calc_clear_button_text</item>
+    </style>
+
+    <!-- Style for the equals button -->
+    <style name="CalculatorButton.Equals" parent="CalculatorButton">
+        <item name="android:backgroundTint">@color/calc_equals_button_bg</item>
+        <item name="android:textColor">@color/calc_equals_button_text</item>
+    </style>
+</resources>
