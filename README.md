@@ -1,6 +1,8 @@
 # My Calculator App
 
-A simple, functional, and modern calculator application for Android, built with Kotlin.![Calculator Screenshot](<INSERT_SCREENSHOT_URL_HERE>)
+A simple, functional, and modern calculator application for Android, built with Kotlin.
+<img width="364" height="803" alt="image" src="https://github.com/user-attachments/assets/6736fc83-78af-4005-a3bb-c4b22a6cd73e" />
+
 
 *Note: You should take a screenshot of the app running and replace the placeholder link above.*
 
@@ -37,7 +39,5 @@ This project emphasizes a strong testing culture using Behavior-Driven Developme
 
 This approach ensures that the app not only works but works in the way users expect it to.
 
-## How To Get Started
 
-1.  Clone the repository:
     
