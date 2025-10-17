@@ -1,10 +1,12 @@
 # My Calculator App
 
 A simple, functional, and modern calculator application for Android, built with Kotlin.
+
 <img width="364" height="803" alt="image" src="https://github.com/user-attachments/assets/6736fc83-78af-4005-a3bb-c4b22a6cd73e" />
 
 
-*Note: You should take a screenshot of the app running and replace the placeholder link above.*
+
+
 
 ## About The Project
 
